@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13480000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in google home",
+            "match": {
+              "location": "stepdefinations.CucumberStepsDefination.i_am_in_google_home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T01:21:55.328Z",
+        "line": 7,
+        "name": "Search",
+        "description": "",
+        "id": "google-homepage;search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 749000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am click Search and Write \"Sleep\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sleep\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinations.CucumberStepsDefination.i_am_click_Search_and_Write(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Google",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8959000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in google home",
+            "match": {
+              "location": "stepdefinations.CucumberStepsDefination.i_am_in_google_home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T01:22:09.666Z",
+        "line": 16,
+        "name": "Send value",
+        "description": "",
+        "id": "google-homepage;send-value;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I am searching a book",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I search pen",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Google",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6166000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in google home",
+            "match": {
+              "location": "stepdefinations.CucumberStepsDefination.i_am_in_google_home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T01:22:18.680Z",
+        "line": 19,
+        "name": "searching",
+        "description": "",
+        "id": "google-homepage;searching",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i am searching:",
+            "match": {
+              "location": "stepdefinations.CucumberStepsDefination.i_am_searching(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Google HomePage",
+    "description": "",
+    "id": "google-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/homePage.feature",
+    "tags": []
+  }
+]
